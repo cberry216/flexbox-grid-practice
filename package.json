@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "mocha"
 	},
 	"repository": {
 		"type": "git",
@@ -17,6 +17,7 @@
 	},
 	"homepage": "https://github.com/cberry216/flexbox-grid-practice#readme",
 	"devDependencies": {
+		"chai": "^4.2.0",
 		"eslint": "^5.10.0",
 		"eslint-config-airbnb": "^17.1.0",
 		"eslint-config-prettier": "^3.3.0",
@@ -24,6 +25,7 @@
 		"eslint-plugin-jsx-a11y": "^6.1.2",
 		"eslint-plugin-prettier": "^3.0.0",
 		"eslint-plugin-react": "^7.11.1",
+		"mocha": "^5.2.0",
 		"prettier": "^1.15.3"
 	},
 	"dependencies": {
