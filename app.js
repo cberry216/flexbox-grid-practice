@@ -15,6 +15,10 @@ app.set("view engine", "handlebars");
 // Allowing serving of static files
 app.use(express.static(path.join(__dirname, "public")));
 
+app.get("/", (req, res) => {
+  res.render("flex");
+});
+
 app.listen(port, () => {
   console.log(`Server started on port ${port}`);
 });

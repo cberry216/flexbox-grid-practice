@@ -1,0 +1,152 @@
+body {
+	margin: 0;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50vh 50vh;
+}
+
+.flexbox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: baseline;
+	align-content: space-around;
+	background-color: green;
+}
+
+.flexbox__item1 {
+	width: 50px;
+	height: 75px;
+	background-color: aqua;
+	margin: 5px 10px;
+}
+
+.flexbox__item2 {
+	width: 50px;
+	height: 150px;
+	background-color: aqua;
+	margin: 5px 10px;
+}
+
+.flexbox__item3 {
+	width: 50px;
+	height: 50px;
+	background-color: aqua;
+	margin: 5px 10px;
+}
+
+.flexbox2 {
+	display: flex;
+	align-items: center;
+	background-color: fuchsia;
+}
+
+.flexbox2__item {
+	width: 50px;
+	height: 80%;
+	margin: 10% 10px;
+	background-color: green;
+}
+
+.flexbox2__item--grow1 {
+	background-color: blue;
+	flex-grow: 1;
+}
+
+.flexbox2__item--grow2 {
+	background-color: purple;
+	flex-grow: 2;
+}
+
+.flexbox2__item--shrink {
+	background-color: yellow;
+	flex-shrink: 2;
+}
+
+.flexbox3 {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+	background-color: red;
+}
+
+.flexbox3__item1 {
+	width: 25%;
+	height: 50px;
+	flex-grow: 1;
+	background-color: gold;
+	margin: 5px 10px;
+}
+
+.flexbox3__item2 {
+	width: 10%;
+	height: 50px;
+	background-color: gold;
+	margin: 5px 10px;
+}
+
+.flexbox3__item3 {
+	width: 40%;
+	height: 50px;
+	background-color: gold;
+	margin: 5px 10px;
+}
+
+.flexbox4 {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: space-around;
+	background-color: darkgoldenrod;
+}
+
+.flexbox4__item {
+	height: 50px;
+	background-color: maroon;
+	margin: 1px 10px;
+}
+
+.flexbox4__item:hover {
+	background-color: blue;
+}
+
+.flexbox4__item--style1 {
+	width: 10%;
+}
+
+.flexbox4__item--style2 {
+	width: 20%;
+}
+
+.flexbox4__item--style3 {
+	width: 30%;
+}
+
+.flexbox4__item--style4 {
+	width: 40%;
+}
+
+.flexbox4__item--style5 {
+	width: 50%;
+}
+
+.flexbox4__item--style6 {
+	width: 60%;
+}
+
+.flexbox4__item--style7 {
+	width: 70%;
+}
+
+.flexbox4__item--style8 {
+	width: 80%;
+}
+
+.flexbox4__item--style9 {
+	width: 90%;
+}
