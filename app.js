@@ -19,6 +19,10 @@ app.get("/", (req, res) => {
   res.render("flex");
 });
 
+app.get("/grid", (req, res) => {
+  res.render("grid");
+});
+
 app.listen(port, () => {
   console.log(`Server started on port ${port}`);
 });
